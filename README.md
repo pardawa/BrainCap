@@ -6,8 +6,8 @@ BrainStation Capstone Project
 The Purpose of this project is to create a chatbot. This has two main purposes, first one is for the AI and human to have a natural-feeling conversation and secondly to create an UBUNTU FAQ Bot, that can answer users questions in a matter of seconds. 
 # Areas of Interest
 The chatbot is widely used among companies of all sectors, as it allows them to give a 24/7 customer service guide, troubleshoot, gain new insights and reach customers across a variety of touch points and increase engagement. 
-# Submission
 # Problem Area
+A stumbling block that has been present for a while is how to make the model remember what has been said and done before, to limit number of repetitions and give out a meaningful solution. If the proposed answer is incorrect, how can it give multiple point of views
 # Data Science Solution
 The aim of this project is to use Natural Language Processing(NLP) Models, Python Interface, Machine and Deep Learning to create an interactive chatbot
 # Impact of Solution
@@ -19,5 +19,7 @@ The dataset consists of almost one million two-person conversations extracted fr
 - diagoue_texts_301 contain about 16587831 lines - 166392849 words & 1799936480 characters
 # Data Dictionary
 Work in Progress
+# Addtional Comments/Thoughts
+Currently am working on EDA and slides. Once a notebook is completed, it will be added on to the repositry and this section will be updated on the next portion being worked on. A copy of a notebook to be posted, so can follow my own chain of thoughts
 # Citation
 Ryan Lowe, Nissan Pow, Iulian V. Serban and Joelle Pineau, "The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems", SIGDial 2015. URL: http://www.sigdial.org/workshops/conference16/proceedings/pdf/SIGDIAL40.pdf
