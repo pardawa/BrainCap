@@ -3,22 +3,46 @@ BrainStation Capstone Project
 - The dataset for this project was taken from Kaggle and is known as the Ubuntu Dialogue Corpus
 - Direct link to this dataset : https://www.kaggle.com/datasets/rtatman/ubuntu-dialogue-corpus/data
 # Project Overview
-The Purpose of this project is to create a chatbot. This has two main purposes, first one is for the AI and human to have a natural-feeling conversation and secondly to create an UBUNTU FAQ Bot, that can answer users questions in a matter of seconds. 
+The Purpose of this project is to create a chatbot. In order to first create one we will need to do some analysis and analytics on the dialogue corpus for us to first understand the text and then go from there
 # Areas of Interest
-The chatbot is widely used among companies of all sectors, as it allows them to give a 24/7 customer service guide, troubleshoot, gain new insights and reach customers across a variety of touch points and increase engagement. 
+Text Analysis is hugely popular with the amount of people and data available. By even transcripting audio, the data can grow in folds. This will help us understand our product much better 
 # Problem Area
-A stumbling block that has been present for a while is how to make the model remember what has been said and done before, to limit number of repetitions and give out a meaningful solution. If the proposed answer is incorrect, how can it give multiple point of views
+Millions of questions , but limited answers and wait time. When we have a question, we have to wait for someone to reply. In this modern world, we need answers instantly
 # Data Science Solution
-The aim of this project is to use Natural Language Processing(NLP) Models, Python Interface, Machine and Deep Learning to create an interactive chatbot
+The aim of this project is to use Natural Language Processing(NLP) Models, Python Interface, Machine and Deep Learning to analyse the data and detect patters and trends within them to understand the problems and benefits the product offers
 # Impact of Solution
-With the impact of growing technology and most companies switching thier operations online, the financial impact of AI Chatbots is unmeasuarable at the moment. With the implementation of a chat or a voice bot adding to customers phone lines or on the mobile app, will help business get rid of staff that do these tasks on a daily basis.
+Huge Impact on customer service and greater trust in product. Reduced wait times as the most important and frequent questions have alredy been asked
 # Description of DataSet
 The dataset consists of almost one million two-person conversations extracted from the Ubuntu chat logs, used to receive technical support for various Ubuntu-related problems. The conversations are all text based and answered via a forum from different usernames. This is a heavy dataset broken down into 3 .csv files. The size of all the files combined is about 3GB.
-- dialogue_texts contain about 1038325 lines - 11035331 words & 116070597 characters 
+- dialogue_texts contain about 1038325 lines - 11035331 words & 116070597 characters - Our Main Focus as of now
 - diaglogue_texts_196 contain about 9212878 lines - 91660344 words & 996253904 characters
 - diagoue_texts_301 contain about 16587831 lines - 166392849 words & 1799936480 characters
 # Data Dictionary
-Work in Progress
+- Folder - The folder the query was retrieved from
+- dialogueID - ID that a set of text corpus is part of
+- Date - Timestamp when query was submitted
+- From - The user who sent the query
+- To - The user whom the answer is for
+- Text - The line of text that is going to help our analysis. The question and response
+# Table of Contents
+- Introduction
+- Explanatory Data Analysis
+- Data Cleaning
+- Preprocessing
+  - Removing Digits
+  - Removing Punctuation
+  - Lemmatizing Text
+  - Lowercasing
+  - Removing Stopwords
+  - Tokenizing
+  - Counting Words & Characters
+  - Parts of Speech
+- Baseline Modeling
+   - Count Vectorizer
+   - Word2Vec
+   - K-Means
+   - Latent Dirichlet Allocation
+   - Principal Component Analysis
 # Addtional Comments/Thoughts
 Currently am working on EDA and slides. Once a notebook is completed, it will be added on to the repositry and this section will be updated on the next portion being worked on. A copy of a notebook to be posted, so can follow my own chain of thoughts
 # Citation
