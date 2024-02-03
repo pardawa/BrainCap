@@ -1,5 +1,5 @@
 # BrainCap - Ubottu
-BrainStation Capstone Project
+BrainStation 2023/24 Capstone Project
 - The dataset for this project was taken from Kaggle and is known as the Ubuntu Dialogue Corpus
 - Direct link to this dataset : https://www.kaggle.com/datasets/rtatman/ubuntu-dialogue-corpus/data
 # Project Overview
@@ -42,8 +42,20 @@ The dataset consists of almost one million two-person conversations extracted fr
    - Word2Vec
    - K-Means
    - Latent Dirichlet Allocation
+     - Topic Modelling 
    - Principal Component Analysis
+     - Vector Embeddings
+ - Advanced Modelling
+   - Assigning Values
+   - Bidirectional Encoder Representation from Transformers
+   - Knowledge Mapping via Spacy
+- Conclusion
 # Addtional Comments/Thoughts
-Currently am working on EDA and slides. Once a notebook is completed, it will be added on to the repositry and this section will be updated on the next portion being worked on. A copy of a notebook to be posted, so can follow my own chain of thoughts
+Dec 23' - Currently am working on EDA and slides. Once a notebook is completed, it will be added on to the repositry and this section will be updated on the next portion being worked on. A copy of a notebook to be posted, so can follow my own chain of thoughts
+
+Feb 24' - After a while was able to work back on this and added BERT and Knowledge Mapping via Spacy NLP Models.<br>
+In addition to it , carried out Topic Modelling via LDA and vector embeddings on PCA.
+
+** Note : Unfortunately due to working on laptop, i wasnt able to process as much computational power wise, and only ran the pre-trained models on a subset of 500-1000 rows. Epoch Loss was low. 
 # Citation
 Ryan Lowe, Nissan Pow, Iulian V. Serban and Joelle Pineau, "The Ubuntu Dialogue Corpus: A Large Dataset for Research in Unstructured Multi-Turn Dialogue Systems", SIGDial 2015. URL: http://www.sigdial.org/workshops/conference16/proceedings/pdf/SIGDIAL40.pdf
